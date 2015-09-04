@@ -1,4 +1,6 @@
-#include <iostream.h>
+#include <iostream>
+using namespace std;
+
 const double epsilon=0.0001;
 
 double f(double x)
@@ -25,5 +27,6 @@ int main()
 {
     cout << zero(1,f,fp)<<endl;
     cin >> alt;
-    cout << alt;
+    cout << zero(alt,f, fp)<<endl;
+    cin >> alt;
 }
